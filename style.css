@@ -1,0 +1,166 @@
+/*@import url(//db.onlinewebfonts.com/c/b5097528420d7ecf74020d4df7339162?family=AR+DESTINE);
+
+@font-face {font-family: "AR DESTINE";
+    src: url("//db.onlinewebfonts.com/t/b5097528420d7ecf74020d4df7339162.eot");
+    src: url("//db.onlinewebfonts.com/t/b5097528420d7ecf74020d4df7339162.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/b5097528420d7ecf74020d4df7339162.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/b5097528420d7ecf74020d4df7339162.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/b5097528420d7ecf74020d4df7339162.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/b5097528420d7ecf74020d4df7339162.svg#AR DESTINE") format("svg");
+}
+*/
+.menuStyle{
+	background-color: #000000;
+}
+
+.logo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: +3;
+}
+
+@media screen and (max-width: 992){
+	.logoPic{
+		width: 50%;
+  		height: 50%; 
+  		z-index: +3;
+	}
+	#menuBrandText{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.logoPic{
+		display: none;
+	}
+	#menuBrandText{
+		display: block;
+	}
+}
+
+
+.menuBrand{
+	color: #81d742;
+
+}
+
+.menuList {
+	padding-right: 1.2em;
+}
+
+.menuItem{
+	color: white;
+}
+
+a.menuItem:hover{
+	color: #81d742;
+}
+
+.header{
+	position: relative;
+
+	top: -50px;
+	min-height: 100%;
+/*
+	background-image: url('http://truebmxproshop.com/wp-content/uploads/2016/12/PanoInside.jpg');
+*/
+	background-size: cover;
+	background-position: center;
+}
+.headerText {
+	float: right;
+	text-align: right;
+}
+
+.headerTitle {
+	font-size: 50px;
+	margin-top: 25%;
+	color: #81d742;
+}
+
+.headerDescription{
+	font-size: 30px;
+	color: #808080;
+}
+
+
+.learnMoreButton{
+	background-color: #81d742;
+	color: white;
+	padding: 5;
+}
+
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.about .aboutDescription{
+	border-left: 4px solid black;
+}
+
+.about .aboutDescription h3{
+	color: black;
+	padding-left: 2.4em;
+}
+
+.about .aboutDescription p{
+	line-height: 2; /*line spacing between 2 * elements font size*/
+	color: gray;
+	padding-left: 4em;
+	font-size: 17px;
+}
+
+.about .aboutImage{
+	border-radius: 50%;
+	
+}
+
+.services .serviceBox{
+
+	text-align: center;
+	font-size: 25px;
+	color: #47425d;
+}
+
+.services i{
+	color: #81d742; 
+	font-size: 50px;
+	padding-bottom: .5em;
+}
+
+.findUs{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+
+.inputBox{
+	margin-bottom: 30px;
+}
+.inputElement{
+	width: 100%;
+	min-height: 2.5em;
+	padding: 10px;
+	margin: 5;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 25px;
+}
+
+#submit{
+	background-color: #81d742;
+	color: white;
+	font-size: 22px;
+	min-height: 2.5em;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
